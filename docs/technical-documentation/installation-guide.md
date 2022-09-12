@@ -30,7 +30,7 @@ Once WSL 2 is running you can install a Linux distro from the Microsoft Store (U
 
 There are two main approaches to install and use Docker and Docker Compose within a WSL distro.
 
-1. Docker suggests using [Docker Desktop](https://docs.docker.com/desktop/install/linux-install/), however it may be confusing as Docker Desktop and WSL 2 need to be started/stopped independently of each other (for example: shutting down Docker Desktop still leaves the Linux distro running on your machine).
+1. Docker suggests using [Docker Desktop](https://docs.docker.com/desktop/install/linux-install/) and this is the easiest way to install the required Docker tools, however it may be confusing as Docker Desktop and WSL 2 need to be started/stopped independently of each other (for example: shutting down Docker Desktop still leaves the Linux distro running on your machine).
     - [DigitalOcean setup guide](https://www.digitalocean.com/community/tutorials/how-to-develop-a-docker-application-on-windows-using-wsl-visual-studio-code-and-docker-desktop)
 2.  You can also install Docker Engine and Docker Compose directly within WSL 2.
     This requires a bit more setup, however we have found this setup more logical to understand once it's running as only the one Linux distro is running on Windows.

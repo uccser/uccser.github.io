@@ -54,8 +54,8 @@ We store our content within the source code of the system, so both are versioned
 We also store our documentation within the same respository for the same reason.
 This prevents the content, system, and documentation don't become out of sync easily.
 
-To populate a Django database with content we use custom loaders.
-The loaders for an application are generally found in the `management/commands/` directory.
+To populate a Django database with content we use custom content loaders.
+The loaders for an application are generally found in the `management/commands/` directory of a Django application.
 Besides populating fields in the database, a loader is also responsible for checking that its corresponding configuration file contains all the required fields, Markdown files are not empty, and icons can be found.
 If any of these conditions are not met, then an error is thrown.
 Errors are defined in `utils/errors/` and should aim to be as descriptive and useful~as possible as they will most often be read by an author and not necessarily a Python developer.
@@ -75,9 +75,20 @@ We write additional CSS using SCSS.
 
 We use a Gulp pipeline to process our static files.
 
+## Local Development
+
+There are two major tools we use for assisting in local development in most of our projects:
+
+1. We use our [UCCSER Development Stack](https://github.com/uccser/uccser-development-stack) for running a proxy on your machine for accessing a website via HTTPS.
+   This matches the setup in the production environment.
+   The stack also has [Mailhog](https://github.com/mailhog/MailHog) installed, so if you trigger an email in local development it is caught by the system and can be viewed at [email.localhost](https://email.localhost/).
+2. We use a helper script called `dev` (found in the project root directory) for providing aliases to long sequences of commands.
+   For example, instead of having to enter multiple commands for generating static files, migrating the database, loading content, etc, the helper script can run these with `./dev update`.
+   If the `dev` script is available, running `./dev help` will output all the available options.
+
 ## Deployments
 
-We used Docker Swarm to deploy our websites.
+We use Docker Swarm to deploy our websites.
 We have two swarms hosted at the University of Canterbury, one for production websites and one for staging websites.
 
 The development swarm has automated tasks for pruning unused containers, images, and volumes.
