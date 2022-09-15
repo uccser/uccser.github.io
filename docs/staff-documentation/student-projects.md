@@ -49,8 +49,8 @@ The following steps need to be taken in order for a website to be deployed:
         For example, the value may be `` Host(`uccser-study-four.csse.canterbury.ac.nz`) ``.
     -   Any traefik routers and services needs to be renamed so it doesn't conflict with existing websites Traefik settings.
         For example, if the existing compose file used `cs-unplugged-django` for its service and router, then replace all occurences with `uccser-study-four-django`.
-    -   Any Docker secrets need to be renamed so it doesn't conflict with existing secrets.
-        For example, if the existing compose file used `cs-unplugged-django` for its service and router, then replace all occurences with `uccser-study-four-django`.
+    -   Any Docker `secrets` and `configs` need to be renamed so it doesn't conflict with existing values.
+        For example, if the existing compose file contains the secret `cs-unplugged_django_secret_key`, then the secret should be renamed to `cs-uccser-study-four_django_secret_key`.
 
 4.  Push your `research-study-` branch, wait for the `test-and-deploy` workflow to complete on GitHub.
     Your package should now be available on GitHub (listed on the repository homepage).
