@@ -1,3 +1,5 @@
+![UCCSER logo](/img/uc-computer-science-education-logo.png)
+
 # UCCSER Development Guide
 
 Welcome to the developer guide for the University of Canterbury Computer Science Education Research Group, or UCCSER for short.

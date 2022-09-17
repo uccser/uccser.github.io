@@ -74,6 +74,14 @@ Once you have pulled the changes through, wait for the `test-and-deploy` workflo
 Remember to ask the staff member to remove your website once your testing is completed.
 You can also then delete your `research-study-` branch.
 
+## Group Logos
+
+You may wish to use the logo for our group during your project, our logos are below:
+
+- [Colour logo](/img/uc-computer-science-education-logo.png)
+- [Black logo](/img/uc-computer-science-education-logo.png)
+- [White logo](/img/uc-computer-science-education-logo.png)
+
 ## Final Report
 
 We will ask permission to include your final report within our repository, as this aids future students and contributors.
