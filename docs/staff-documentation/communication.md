@@ -8,7 +8,7 @@ While most people work within 8AM and 5PM, some work evenings and weekends.
 Each staff member is asked to configure the notification settings in each application to suit their lifestyle and work commitments.
 If you recieve a message outside your work hours, you are encouraged to ignore it (if you accidentally read it use the 'Mark as unread' feature in most tools).
 
-This approach allows staff to send and respond to messages without any expectation from the recievers.
+This approach allows staff to send and respond to messages without any expectation from the receivers.
 
 ## Slack
 
