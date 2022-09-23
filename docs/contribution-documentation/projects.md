@@ -8,7 +8,7 @@ While there are many projects created by UCCSER (some are not code related so do
 
 CS Unplugged is a collection of free learning activities that teach Computer Science through engaging games and puzzles that use cards, string, crayons and lots of running around.
 
-These activities are primarily aged at younger students (but are great for anyone new to Computer Science).
+These activities are primarily written for younger students (but are great for anyone new to Computer Science).
 The content was rewritten for teachers in 2018, with the previous activities are found on the [Classic CS Unplugged website](https://classic.csunplugged.org/).
 
 ## Computer Science Field Guide
