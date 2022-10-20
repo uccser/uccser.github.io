@@ -16,8 +16,8 @@ nav:
         - technical-documentation/technical-stack-structure.md
         - technical-documentation/internationalisation.md
         - technical-documentation/branching-strategy.md
-        - technical-documentation/common-approaches.md
-        - technical-documentation/style.md
+        - technical-documentation/content-style.md
+        - technical-documentation/programming-style.md
         - technical-documentation/licencing.md
         - technical-documentation/term-definitions.md
     - Staff Documentation:

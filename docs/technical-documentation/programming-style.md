@@ -1,4 +1,4 @@
-# Style and Etiquette Guides
+# Programming Style
 
 ## Git
 
