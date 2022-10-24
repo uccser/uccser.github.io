@@ -26,6 +26,8 @@ The following domains are set aside for research projects:
 
 The modifications can be in an official UCCSER GitHub repository, or a fork from one of these repositories.
 
+### Setup for deployment
+
 **Note:** *Some websites (for example: codeWOF) have additional features or behaviours when in research mode, see the projects documentation for more information.*
 
 The following steps need to be taken in order for a website to be deployed:
@@ -57,7 +59,7 @@ The following steps need to be taken in order for a website to be deployed:
 
 5.  Ask a staff member who has permissions to the development swarm to deploy the website.
 
-### Staff deployment notes
+#### Staff notes
 
 -   Clone the repository within the swarm within a directory for the research number.
     This avoids conflicts of two projects with the same name existing in the same directory.
@@ -73,6 +75,15 @@ Once you have pulled the changes through, wait for the `test-and-deploy` workflo
 
 Remember to ask the staff member to remove your website once your testing is completed.
 You can also then delete your `research-study-` branch.
+
+### After research
+
+Once your reseach is concluded and you no longer require the research website, please inform a staff member who has permissions to the development swarm to remove the website.
+
+#### Staff notes
+
+- Remove the Docker Stack using `docker stack rm {STACK_NAME}` on a manager node.
+- Remove the Docker Volumes of the stack on the database node (see [server-tools repository](https://github.com/uccser/server-tools) for details) as these will contain research participant's data and is not removed with the previous command.
 
 ## Group Logos
 
