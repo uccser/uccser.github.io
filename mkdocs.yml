@@ -3,7 +3,9 @@ site_author: UCCSER
 # site_url:
 copyright: This content is licensed under Creative Commons Attribution-ShareAlike 4.0 International license (CC-BY-SA-4.0).
 repo_url: https://github.com/uccser/uccser.github.io
-theme: readthedocs
+theme:
+  name: readthedocs
+  custom_dir: overrides
 nav:
     - Home: index.md
     - Contribution Documentation:
