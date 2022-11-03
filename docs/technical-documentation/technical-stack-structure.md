@@ -59,6 +59,8 @@ The loaders for an application are generally found in the `management/commands/`
 Besides populating fields in the database, a loader is also responsible for checking that its corresponding configuration file contains all the required fields, Markdown files are not empty, and icons can be found.
 If any of these conditions are not met, then an error is thrown.
 Errors are defined in `utils/errors/` and should aim to be as descriptive and useful~as possible as they will most often be read by an author and not necessarily a Python developer.
+The loaders will update existing content if it is already present, however it doesn't have logic to detect if any content needs to be deleted.
+This is because we rarely delete content from our websites, and if content needs to be deleted then it can either be removed via the administrator interface (codeWOF, DTHM for Kaiako) or via a Django shell on the deployment (CS Unplugged, Computer Science Field Guide).
 
 We use Postgres as our database.
 
