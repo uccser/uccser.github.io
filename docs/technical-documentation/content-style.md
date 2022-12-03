@@ -28,7 +28,7 @@ Please get in touch if you find inconsistencies or something doesn't make sense.
 
 ## Spelling
 
-Since we are based in Aotearoa (New Zealand), our primary language is British English (*colour* instead of *colour*).
+Since we are based in Aotearoa (New Zealand), our primary language is British English (*colour* instead of *color*).
 This guide is for resolving ambiguity for specific words and phrases, to ensure consistency in UCCSER content.
 
 ### a | an
